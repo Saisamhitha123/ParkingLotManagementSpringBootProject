@@ -67,7 +67,7 @@ The ParkingLot Management System is a RESTful API built with Spring Boot that pr
 
 The application uses H2 in-memory database by default. To use a different database, update `application.properties`:
 
-```properties
+properties
 # For MySQL
 spring.datasource.url=jdbc:mysql://portNumber/schemaname
 spring.datasource.username=your_username
